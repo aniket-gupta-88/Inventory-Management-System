@@ -16,36 +16,37 @@ It includes **JWT-based authentication**, **role-based access control** (Admin/U
 ## 📂 Project Structure
 
 com.myproject.InventoryManagementSystem
-├── entity/
-│ ├── User.java
-│ ├── Product.java
-│ ├── Category.java
-│ ├── Supplier.java
-│ └── Transaction.java
+├── entity
+│   ├── User.java
+│   ├── Product.java
+│   ├── Category.java
+│   ├── Supplier.java
+│   └── Transaction.java
 │
-├── controller/
-│ ├── AuthController.java
-│ ├── UserController.java
-│ ├── ProductController.java
-│ ├── CategoryController.java
-│ ├── SupplierController.java
-│ └── TransactionController.java
+├── controller
+│   ├── AuthController.java
+│   ├── UserController.java
+│   ├── ProductController.java
+│   ├── CategoryController.java
+│   ├── SupplierController.java
+│   └── TransactionController.java
 │
-├── service/
-│ ├── UserService.java
-│ ├── ProductService.java
-│ ├── CategoryService.java
-│ ├── SupplierService.java
-│ └── TransactionService.java
+├── service
+│   ├── UserService.java
+│   ├── ProductService.java
+│   ├── CategoryService.java
+│   ├── SupplierService.java
+│   └── TransactionService.java
 │
-├── repository/
-│ ├── UserRepository.java
-│ ├── ProductRepository.java
-│ ├── CategoryRepository.java
-│ ├── SupplierRepository.java
-│ └── TransactionRepository.java
+├── repository
+│   ├── UserRepository.java
+│   ├── ProductRepository.java
+│   ├── CategoryRepository.java
+│   ├── SupplierRepository.java
+│   └── TransactionRepository.java
 │
 └── InventoryManagementSystemApplication.java
+
 
 ## 🧩 Entity Relationships
 
